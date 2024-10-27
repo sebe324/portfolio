@@ -8,7 +8,6 @@
 .navbar-toggler
 {
 	border:none;
-	border: none;
 	background: none;
 }
 
@@ -73,13 +72,20 @@ header.sticky-top{
 .nav-link
 {
     position: relative;
+	color:white !important;
+}
+
+.nav-link:hover
+{
+    position: relative;
+	color: whitesmoke;
 }
 .nav-link::before
 {
     content:'';
     width:0px;
     height:3px;
-    background-color: #aaaaaa;
+    background-color: whitesmoke;
     position: absolute;
     display:inline-block;
 	left: 0;
@@ -92,6 +98,26 @@ header.sticky-top{
 {
 
     width:100%;
-    background-color: #303030;
+}
 
+
+.settingsbtn:focus,
+.settingsbtn:active,
+.settingsbtnr-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.settingsbtn
+{
+	border:none;
+	background: none;
+}
+.settingsbtn img
+{
+	transition: transform 0.3s ease;
+}
+.settingsbtn:hover img
+{
+	transform:rotate(120deg);
 }

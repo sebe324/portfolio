@@ -26,10 +26,10 @@ function Slider(props) {
 
                                 </img>
                             </div>
-                            <div class="carousel-caption">
-                                <h5 class='d-md-block'>{slide.title}</h5>
-                                {slide.tools.map((tool)=>{
-                                    return <div className='d-inline-block me-1 tool'>{tool}</div>
+                            <div className="carousel-caption">
+                                <h5 className='d-md-block'>{slide.title}</h5>
+                                {slide.tools.map((tool,index)=>{
+                                    return <div className='d-inline-block me-1 tool' key={index}>{tool}</div>
                                 })}
                                 
                             </div>
