@@ -1,0 +1,23 @@
+.front-look
+{
+    min-height: 100vh;
+}
+
+.lol{
+    width:100%;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover;
+    margin-top:40px;
+    display: block;
+}
+
+.img-container
+{
+    text-align: center;
+}
+
+.name
+{
+    margin-top:40vh;
+}

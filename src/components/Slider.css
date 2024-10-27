@@ -1,0 +1,42 @@
+.carousel-inner {
+    height: 0;
+    padding-bottom: 50%; 
+    overflow-x:hidden;
+    overflow-y: visible;
+  }
+  
+  .carousel-item {
+    position: absolute !important; /* Bootstrap is insistent */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+  }
+  
+  .carousel-item img {
+    height: 100%; /* Bootstrap handles width already */
+    object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+    transition: transform 0.5s ease, filter 0.5s ease;
+  }
+
+  .carousel-img-wrap{
+    overflow: hidden;
+    height:100%;
+  }
+  .carousel-img-wrap img:hover
+  {
+    transform: scale(1.2,1.2);
+    filter: brightness(0.8);
+  }
+  .carousel { overflow: hidden; padding-bottom: 6rem; }
+  .carousel-caption { top: 100%; color:black;}
+  .carousel-inner { overflow: visible; }
+  .carousel-control-next, .carousel-control-prev, .carousel-indicators { bottom: 6rem; }
+
+  .tool{
+    background-color: black;
+    color:white;
+    border-radius:10%;
+    padding:3px;
+  }
