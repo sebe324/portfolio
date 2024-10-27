@@ -21,3 +21,11 @@
 {
     margin-top:40vh;
 }
+
+@media(max-width:575px)
+{
+    .name
+    {
+        margin-top:10vh;
+    }
+}

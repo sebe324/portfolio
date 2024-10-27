@@ -31,6 +31,7 @@ function Slider(props) {
                                 {slide.tools.map((tool)=>{
                                     return <div className='d-inline-block me-1 tool'>{tool}</div>
                                 })}
+                                
                             </div>
                         </a>
                     })

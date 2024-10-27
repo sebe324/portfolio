@@ -29,14 +29,15 @@
     transform: scale(1.2,1.2);
     filter: brightness(0.8);
   }
-  .carousel { overflow: hidden; padding-bottom: 6rem; }
+  .carousel { overflow: hidden; padding-bottom: 7.5rem; }
   .carousel-caption { top: 100%; color:black;}
   .carousel-inner { overflow: visible; }
-  .carousel-control-next, .carousel-control-prev, .carousel-indicators { bottom: 6rem; }
+  .carousel-control-next, .carousel-control-prev, .carousel-indicators { bottom: 7.5rem; }
 
   .tool{
     background-color: black;
     color:white;
-    border-radius:10%;
+    border-radius:3px;
     padding:3px;
+    margin-bottom: 2px;
   }
