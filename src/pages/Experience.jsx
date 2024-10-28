@@ -6,8 +6,8 @@ function Experience() {
     return (
         <main>
             <div className='container-fluid'>
-                <header className="ms-4 text-center">
-                <h1 className="h2">Doświadczenie Zawodowe</h1>
+                <header className="my-4 text-center">
+                <h1 className="h2 slideIn">Doświadczenie Zawodowe</h1>
                 </header>
                 <div className="row ms-4">
                     <div className="col-12 bulletPoint">

@@ -27,7 +27,8 @@ body
   width:fit-content;
   transition: rotate 0.25s 0.25s ease, color 0.25s ease, transform 0.25s ease;
   color:#404040;
-}
+  cursor: pointer;
+}    
 
 .expandable:hover
 {
@@ -128,7 +129,26 @@ body
     opacity:0;
   }
   100% {
-    transform: translateX(0);
+    transform: translateY(0);
     opacity:1;
+  }
+}
+
+
+.educationdiv
+{
+  animation: 0.5s ease-out 0s 1 slideIn;
+}
+
+.slideIn
+{
+  animation: 0.5s ease 0s 1 slideIn;
+}
+@media(max-width:767px)
+{
+  .slideIn
+  {
+    animation: 0.5s ease 0.5s 1 slideIn;
+    animation-fill-mode: both;
   }
 }

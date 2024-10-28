@@ -5,7 +5,7 @@
     overflow-y: visible;
   }
   
-  @media(max-width:576px)
+  @media(max-width:575px)
   {
       .carousel-inner
       {

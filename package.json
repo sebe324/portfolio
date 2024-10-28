@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/sebe324/sebe324.github.io",
+  "homepage": "https://sebe324.github.io/#/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",

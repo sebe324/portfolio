@@ -40,17 +40,17 @@ function Home() {
     return (
         <main>
             <div className='container-fluid'>
-                <div className='row front-look justify-content-md-center mb-4'>
+                <div className='row front-look justify-content-md-center align-items-md-center align-content-start align-content-md-center mb-0 mb-md-4'>
 
 
-                    <div className='col-md-5 name float-end text-center text-md-start'>
+                    <div className='col-md-5 name text-center text-md-start pb-md-0 pb-4'>
                         <h1>Sebastian Skonieczny</h1>
                         <h3>
                             Full-stack Software Engineer
                         </h3>
                     </div>
 
-                    <div className='col-md-5 img-container float-end'>
+                    <div className='col-md-5 img-container'>
                         <img src={xd} className='lol' alt='Zdjęcie'></img>
                     </div>
 

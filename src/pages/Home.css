@@ -1,20 +1,18 @@
 .front-look
 {
-    min-height: 100vh;
+    min-height: calc(100vh - 58px) !important;
+
 }
 
 .lol{
-    width:100%;
     border-radius: 50%;
     aspect-ratio: 1 / 1; 
     object-fit: cover;
-    margin-top:40px;
     display: block;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    max-height: calc(100vh - 58px) !important;
+    max-width:100%;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .img-container
@@ -24,15 +22,29 @@
 
 .name
 {
-    margin-top:40vh;
+    height: fit-content;
+    
 }
 
-@media(max-width:768px)
+@media(max-width:767px)
 {
     .name
     {
         margin-top:10vh;
     }
+    .lol
+    {
+
+        border-radius: 50%;
+        aspect-ratio: 1 / 1; 
+        object-fit: cover;
+        display: block;
+    }
+    .front-look
+{
+    min-height: 80vh;
+}
+
 }
 
 .contact-wrap

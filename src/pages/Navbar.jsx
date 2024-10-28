@@ -42,10 +42,10 @@ function Navbar() {
                             <Link className='nav-link' to='education'>Edukacja</Link>
                             </li>
                             <li className='nav-item'>
-                            <Link className='nav-link' to='projects'>Projekty</Link>
+                            <Link className='nav-link disabled bloglink' to='projects'>Projekty</Link>
                             </li>
                             <li className='nav-item'>
-                            <Link className='nav-link disabled' to='experience'>Blog</Link>
+                            <Link className='nav-link disabled bloglink' to='experience'>Blog</Link>
                             </li>
                         </ul>
                     </div>

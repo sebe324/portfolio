@@ -121,3 +121,8 @@ header.sticky-top{
 {
 	transform:rotate(120deg);
 }
+
+.bloglink
+{
+	color:#909090 !important;
+}

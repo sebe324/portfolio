@@ -9,7 +9,7 @@ function Slider(props) {
     }, []);
     const sliderId = useId();
     return (
-        <div id={sliderId} className='carousel slide' data-bs-ride='carousel'>
+        <div id={sliderId} className='carousel slide' data-bs-interval="5000" data-bs-touch="true" data-bs-ride="carousel">
             <div className="carousel-indicators">
                 {props.slides.map((slide, index) => {
                     return <button key={index} type="button" data-bs-target={'#' + sliderId} data-bs-slide-to={index} className={index == 0 ? 'active' : ''} aria-current={index == 0 ? 'true' : 'false'} aria-label={"Slide " + index + 1}></button>
