@@ -49,3 +49,24 @@
     padding:3px;
     margin-bottom: 2px;
   }
+  [data-bs-theme=dark] .tool {
+    color: black;
+    background-color: #dee2e6;
+  }
+  
+  [data-bs-theme=dark] .slidertitle
+  {
+    color:#dee2e6;
+  }
+  [data-bs-theme=dark] .carousel-control-prev
+  {
+    filter: invert(1);
+  }
+  [data-bs-theme=dark] .carousel-control-next
+  {
+    filter: invert(1);
+  }
+  [data-bs-theme=dark] .carousel-indicators
+  {
+    filter:invert(1);
+  }

@@ -30,9 +30,13 @@ body
   cursor: pointer;
 }    
 
+[data-bs-theme=dark] .expandable
+{
+  color:#eee;
+}
 .expandable:hover
 {
-  color:#808080;
+  color:#bbb;
   transform:translateY(-10px);  
 }
 
@@ -89,6 +93,15 @@ body
   z-index:1;
 
 }
+[data-bs-theme=dark] .bulletPoint::after
+{
+  background-color: #16516c;
+}
+
+[data-bs-theme=dark] .bulletPoint::before
+{
+  background-color: #247fa6;
+}
 
 .bulletPoint:nth-child(1)::before
 {
@@ -102,7 +115,10 @@ body
   z-index:0;
   background: linear-gradient(transparent,rgba(52,172,224,1));
 }
-
+[data-bs-theme=dark] .bulletPoint:nth-child(1)::before
+{
+  background: linear-gradient(transparent,#247fa6);
+}
 .bulletPoint:nth-child(1)::after
 {
   content: '';
@@ -122,7 +138,10 @@ body
   z-index:0;
   background: linear-gradient(rgba(52,172,224,1),transparent);
 }
-
+[data-bs-theme=dark] .bulletPoint:last-child::before
+{
+  background: linear-gradient(#247fa6,transparent);
+}
 @keyframes slideIn {
   0% {
     transform: translateY(-20%);
@@ -138,7 +157,7 @@ body
 .educationdiv
 {
   animation: 0.5s ease-out 0s 1 slideIn;
-}
+}  
 
 .slideIn
 {

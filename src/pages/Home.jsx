@@ -9,6 +9,7 @@ import Slider from '../components/Slider';
 import xd from '../assets/xd.jpg'
 import githubmark from '../assets/github-mark.png';
 import linkedinsquare from '../assets/linkedin-square.svg'
+import {useTranslation } from 'react-i18next';
 const projects = [
     {
         src: image1,
@@ -30,12 +31,14 @@ const projects = [
     },
     {
         src: image4,
-        title: "Strona portfolio",
+        title: "Portfolio",
         projectUrl: "https://github.com/sebe324/sebe324.github.io",
         tools: ["React", "Bootstrap", "Node.js", "JavaScript", "RWD"]
     }
 ]
 function Home() {
+
+    const { t, i18n } = useTranslation();
 
     return (
         <main>
@@ -57,37 +60,33 @@ function Home() {
                 </div>
                 <div className='row justify-content-md-center'>
                     <div className='col-lg-8'>
-                        <h1>O mnie</h1>
+                        <h1>{t('about-header')}</h1>
                         <p>
-                            Jestem programistą Full Stack pracującym przy rozwijaniu złożonych aplikacji webowych, desktopowych jak i konsolowych.
-                            Posiadam szeroką wiedzę techniczną obejmującą zarówno frontend (React, Bootstrap, Qt), jak i backend (Node.js, Python, C++),
-                            co pozwala mi na efektywną współpracę przy wszystkich etapach cyklu tworzenia oprogramowania. Mam również doświadczenie z korzystania z platform chmurowych (Azure).
-                            Specjalizuję się w projektowaniu skalowalnych, wydajnych rozwiązań oraz dbam o implementację przyjaznych interfejsów użytkownika.
+                        {t('about-text1')}
                         </p>
                         <p>
-                            Od najmłodszych lat pasjonuję się komputerami, a swoje pierwsze programy zacząłem pisać mając zaledwie 11 lat. Postanowiłem dalej więc rozwijać swoje zainteresowanie i przekształcić je w karierę.
-                            Oprócz siedzenia przy komputerze interesuje mnie też muzyka i matematyka. Lubie też od czasu do czasu pojeździć na rowerze :)
+                           {t('about-text2')}
                         </p>
                     </div>
                     <div className='col-lg-8 mt-4'>
-                        <h1>Współpraca</h1>
+                        <h1>{t('contact-header')}</h1>
                         <p>
-                            Jeżeli jesteś zainteresowany współpracą, zajrzyj na moje media społecznościowe lub napisz maila.
+                            {t('contact-text')}
                         </p>
                         <a className='contact-wrap ms-2 me-2 mb-3' href="https://github.com/sebe324" target="_blank">
-                        <img src={githubmark} alt="github"/>
+                            <img src={githubmark} alt="github" />
                         </a>
                         <a className='contact-wrap me-2' href="https://www.linkedin.com/in/sebastian-skonieczny-384573276/" target="_blank">
-                        <img src={linkedinsquare} alt="linkedin"/>
+                            <img src={linkedinsquare} alt="linkedin" />
                         </a>
-                        <br/>
+                        <br />
                         <a className='mailto-link' href="mailto:skonieczny.sebastian123@gmail.com">skonieczny.sebastian123@gmail.com</a>
                     </div>
                 </div>
                 <div className='row justify-content-center mt-4'>
 
                     <div className='col-lg-8 '>
-                        <h1>Projekty</h1>
+                        <h1>{t('projects-header')}</h1>
                         <br></br>
                         <Slider slides={projects}></Slider>
                     </div>

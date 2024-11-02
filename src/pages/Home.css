@@ -60,6 +60,11 @@
     transition:filter 0.3s ease;
 }
 
+[data-bs-theme=dark] .contact-wrap img {
+    filter: invert(1);
+  }
+  
+
 .contact-wrap img:hover{
     filter: brightness(0) saturate(100%) invert(29%) sepia(52%) saturate(3885%) hue-rotate(221deg) brightness(101%) contrast(101%);
 }
@@ -68,12 +73,12 @@
 {
     text-decoration: none;
     transition:color 0.3s ease;
-    color:black;
     font-weight: bold;
+    color:var(--bs-body-color);
 }
 
 .mailto-link:hover
 {
     text-decoration: none;
-    color:#404040;
+    color:var(--bs-primary-text-emphasis);
 }

@@ -1,0 +1,31 @@
+{
+    "translation": {
+        "experience": "Experience",
+        "education": "Education",
+        "projects": "Projects",
+        "blog": "Blog",
+        "lightmode": "Light mode",
+        "darkmode": "Dark mode",
+        "about-header": "About me",
+        "about-text1": "I am a Full Stack developer working on the development of complex web, desktop, and console applications. I have extensive technical knowledge that encompasses both frontend (React, Bootstrap, Qt) and backend (Node.js, Python, C++), allowing me to collaborate effectively at all stages of the software development lifecycle. I also have experience using cloud platforms (Azure). I specialize in designing scalable, efficient solutions and ensure the implementation of user-friendly interfaces.",
+        "about-text2": "Since I was young, I have been passionate about computers, and I started writing my first programs at the age of just 11. I decided to further develop my interests and turn them into a career. Besides spending time at the computer, I am also interested in music and mathematics. I also enjoy riding my bike from time to time :)",
+        "contact-header": "Let's connect",
+        "contact-text": "If you want to contact me or cooperate with me on some project, reach out on social media or send an e-mail.",
+        "projects-header": "Projects",
+        "experience-header": "Work Experience",
+        "bat-job-title": "Junior Software Developer (Internship)",
+        "bat-job-date": "July 2024 - aktualnie",
+        "bat-job-desc": "Currently I am working at British American Tobacco, where I design, implement and  maintain in-house software.",
+        "bat-job-list": "<0><0>Created dashboards in New Relic that connected to data from production. Implementation of a custom dashboard programmed in React. </0><0>Deployed chatbots based on corporate documentation on Teams and web applications. I programmed both the frontend (React) and backend (Python).</0><0>Implemented CI/CD pipelines in Azure DevOps. Automated testing, deployment and monitoring.</0><0>Creating and managing web applications (Azure Web Apps) in Microsoft Azure, ensuring scalability, performance, and security of the applications.</0><0>Implementation and configuration of Azure Search to provide advanced full-text search in applications.</0></0>",
+        "dn-job-title": "Intern at software engineering department.",
+        "dn-job-date": "April 2024 - June 2024",
+        "dn-job-desc": "As part of my school internship, I worked at Diebold Nixdorf in the software engineering and technical support department.",
+        "dn-job-list": "<0><0>Uploading new software to ATMs and testing it, troubleshooting errors.</0><0>Developing the ATM user interface using JavaScript, jQuery, HTML, and CSS.</0><0>Documenting the project and consulting with the rest of the team.</0></0>",
+        "education-header": "Education",
+        "tm1-education-header": "Software Developer - Technical School Graduate",
+        "tm1-education-school":"1st Mechatronics Technical High School in Warsaw",
+        "tm1-education-date": "September 2020 - May 2025",
+        "tm1-education-desc": "During my studies at the best technical school in Warsaw, I became familiar with many technologies and programming languages. The vocational qualification consisted of two modules:",
+        "tm1-education-list": "<0><0><0>INF.03 - Creating and administering websites and web applications as well as databases.</0><1>I learned the basics of web development and database management. I became familiar with technologies such as HTML, CSS, JavaScript, SQL, and PHP.</1></0><0><0>INF.04 - Designing, programming, and testing applications.</0><1>This module focused on programming desktop, mobile, and web applications. The programming languages and tools I became familiar with include: Android Studio, WPF, React, Angular, Qt, and Spring.</1></0></0>"
+    }
+}

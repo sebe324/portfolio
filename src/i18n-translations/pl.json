@@ -1,0 +1,38 @@
+{
+    "translation": {
+        "experience":"Doświadczenie",
+        "education":"Edukacja",
+        "projects": "Projekty",
+        "blog": "Blog",
+        "lightmode":"Tryb jasny",
+        "darkmode":"Tryb ciemny",
+
+
+        "about-header":"O mnie",
+        "about-text1":"Jestem programistą Full Stack pracującym przy rozwijaniu złożonych aplikacji webowych, desktopowych jak i konsolowych. Posiadam szeroką wiedzę techniczną obejmującą zarówno frontend (React, Bootstrap, Qt), jak i backend (Node.js, Python, C++), co pozwala mi na efektywną współpracę przy wszystkich etapach cyklu tworzenia oprogramowania. Mam również doświadczenie z korzystania z platform chmurowych (Azure). Specjalizuję się w projektowaniu skalowalnych, wydajnych rozwiązań oraz dbam o implementację przyjaznych interfejsów użytkownika.",
+        "about-text2":"Od najmłodszych lat pasjonuję się komputerami, a swoje pierwsze programy zacząłem pisać mając zaledwie 11 lat. Postanowiłem dalej więc rozwijać swoje zainteresowanie i przekształcić je w karierę. Oprócz siedzenia przy komputerze interesuje mnie też muzyka i matematyka. Lubie też od czasu do czasu pojeździć na rowerze :)",
+        "contact-header":"Współpraca",
+        "contact-text":"Jeżeli jesteś zainteresowany współpracą, zajrzyj na moje media społecznościowe lub napisz maila.",
+        "projects-header":"Projekty",
+
+
+        "experience-header":"Doświadczenie Zawodowe",
+
+        "bat-job-title":"Młodszy Programista (Staż)",
+        "bat-job-date":"lipiec 2024 - aktualnie",
+        "bat-job-desc":"Obecnie pracuję w firmie British American Tobacco, gdzie projektuję, wdrażam i utrzymuję oprogramowanie wewnętrzne.",
+        "bat-job-list": "<0><0>Tworzenie dashboardów w New Relic łączących się z danymi z produkcji. Wdrożenie niestandardowego dashboardu zaprogramowanego w React.</0><0>Deployment chatbotów opartych na dokumentacji firmowej na Teams i aplikacje webowe. Zajmowałem się zarówno frontendem (React) jak i backendem (Python).</0><0>Implementacja rozwiązań zapewniających automatyczne testowanie, monitorowanie i wdrażanie aplikacji w Azure DevOps, CI/CD.</0><0>Tworzenie i zarządzanie aplikacjami webowymi (Azure Web Apps) w Microsoft Azure, zapewniając skalowalność, wydajność i bezpieczeństwo aplikacji.</0><0>Implementacja i konfiguracja Azure Search do zapewnienia zaawansowanego wyszukiwania pełnotekstowego w aplikacjach.</0></0>",
+        "dn-job-title":"Praktykant w dziale Inżynierii Oprogramowania",
+        "dn-job-date":"kwiecień 2024 - czerwiec 2024",
+        "dn-job-desc":"W ramach szkolnych praktyk pracowałem w firmie Diebold Nixdorf w dziale inżynierii oprogramowania i wsparcia technicznego.",
+        "dn-job-list":"<0><0>Wgrywanie nowego oprogramowania do bankomatów i testowanie go, naprawianie błędów.</0><0>Programowanie interfejsu użytkownika do bankomatu przy użyciu JS, JQuery, HTML, CSS.</0><0>Dokumentowanie projektu, konsultacje z resztą zespołu.</0></0>",
+        
+        "education-header":"Edukacja",
+        "tm1-education-header":"Technik Programista",
+        "tm1-education-school":"Technikum Mechatroniczne nr 1 im. Piotra Drzewieckiego, Wiśniowa",
+        "tm1-education-date":"Wrzesień 2020 - Maj 2025",
+        "tm1-education-desc":"Podczas nauki w najlepszym technikum w Warszawie na kierunku technika programisty poznałem wiele technologii i języków programowania. Kwalifikacja zawodowa składała się z 2 modułów:",
+        "tm1-education-list":"<0><0><0>INF.03 - Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz bazami danych</0><1>Nauczyłem się podstaw tworzenia stron internetowych i zarządzaniem bazami danych. Poznałem technologie takie jak HTML, CSS, JS, SQL i PHP.</1></0><0><0>INF.04 - Projektowanie, programowanie i testowanie aplikacji</0><1>Moduł ten polegał na programowaniu aplikacji desktopowych, mobilnych i webowych. Języki programowania i narzędzia jakie poznałem to między innymi: Android Studio, WPF, React, Angular, Qt, Spring.</1></0></0>"
+
+    }
+}
